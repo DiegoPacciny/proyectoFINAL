@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente bonita */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo agradable */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3em; /* Tamaño grande */
+    color: #333; /* Color del texto */
+  }
+  
+  a {
+    display: block; /* Para que el enlace ocupe todo el ancho del contenedor */
+    text-decoration: none; /* Sin subrayado */
+    color: #007bff; /* Color del enlace */
+    transition: font-size 0.3s ease; /* Transición suave */
+  }
+  
+  a:hover {
+    font-size: 1.2em; /* Tamaño más grande al pasar el ratón */
+  }

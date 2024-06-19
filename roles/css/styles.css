@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(../imgg/fincaa.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    height: 540px;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+form .title {
+    color: #1b1a1a;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+form label {
+    margin-bottom: 35px;
+}
+
+form label .fa-solid {
+    font-size: 20px;
+    color: #cb232c;
+    margin-right: 10px;
+}
+
+form label input {
+    outline: none;
+    border: none;
+    color: #252525;
+    border-bottom: solid 1px #ce1d61;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+form label input::placeholder {
+    color: rgba(37, 37, 37, 0.5);
+}
+
+
+form .link {
+    color: #252525;
+    margin-bottom: 15px;
+}
+
+.button {
+    color: #fff;
+    border: none;
+    background: rgb(213, 0, 0);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: rgb(255, 74, 74);
+}
+
+.logologin{
+    position: relative;
+    width: 165px;
+    height: auto;
+    left: 50px;
+}
+
+.selector{
+    width: 270px;
+    height: 35px;
+    font-size: 1rem;
+}
+
+.alert alert-danger{
+    width: 150px;
+
+}
